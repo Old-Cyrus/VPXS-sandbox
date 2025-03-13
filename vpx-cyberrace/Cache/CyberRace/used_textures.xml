@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<textures>
+    <texture filter="5" clampu="3" clampv="3" linear="false" prerender="false">CustomBlackTip</texture>
+    <texture filter="5" clampu="0" clampv="0" linear="false" prerender="false">VLM.Nestmap7</texture>
+    <texture filter="5" clampu="0" clampv="0" linear="false" prerender="true">scorbitapron</texture>
+    <texture filter="5" clampu="3" clampv="3" linear="false" prerender="false">shinyenvironment3blur4</texture>
+    <texture filter="5" clampu="0" clampv="0" linear="false" prerender="false">VLM.Nestmap13</texture>
+    <texture filter="5" clampu="0" clampv="0" linear="false" prerender="false">VLM.Nestmap14</texture>
+    <texture filter="5" clampu="0" clampv="0" linear="false" prerender="false">VLM.Nestmap3</texture>
+    <texture filter="5" clampu="0" clampv="0" linear="false" prerender="false">VLM.Nestmap5</texture>
+    <texture filter="5" clampu="0" clampv="0" linear="false" prerender="false">VLM.Nestmap11</texture>
+    <texture filter="5" clampu="0" clampv="0" linear="false" prerender="false">VLM.Nestmap10</texture>
+    <texture filter="5" clampu="0" clampv="0" linear="false" prerender="false">VLM.Nestmap9</texture>
+    <texture filter="5" clampu="0" clampv="0" linear="false" prerender="false">VLM.Nestmap1</texture>
+    <texture filter="5" clampu="0" clampv="0" linear="false" prerender="true">metal3</texture>
+    <texture filter="5" clampu="0" clampv="0" linear="false" prerender="false">VLM.Nestmap2</texture>
+    <texture filter="5" clampu="0" clampv="0" linear="false" prerender="true">Insert_TriangleOff</texture>
+    <texture filter="5" clampu="0" clampv="0" linear="false" prerender="false">Nestmap 0a</texture>
+    <texture filter="5" clampu="0" clampv="0" linear="false" prerender="false">VLM.Nestmap0</texture>
+    <texture filter="5" clampu="0" clampv="0" linear="false" prerender="false">VLM.Nestmap12</texture>
+    <texture filter="5" clampu="0" clampv="0" linear="false" prerender="false">VLM.Nestmap8</texture>
+    <texture filter="5" clampu="0" clampv="0" linear="false" prerender="false">VLM.Nestmap4</texture>
+    <texture filter="5" clampu="0" clampv="0" linear="false" prerender="false">VLM.Nestmap6</texture>
+</textures>

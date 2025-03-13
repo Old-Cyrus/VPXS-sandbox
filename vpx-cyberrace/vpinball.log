@@ -1,0 +1,456 @@
+Launcher Version: 1.0.17
+VPX Version: 10.8.0-1431983
+2025-03-11 11:54:11.953 INFO  [6125] [VPApp::InitInstance@928] Starting VPX - v10.8.0 Beta (Rev. 9999 (1431983), linux OpenGL 64bits)
+2025-03-11 11:54:11.955 INFO  [6125] [VPApp::InitInstance@931] Settings file was loaded from /media/usb0/external/vpx-cyberrace/VPinballX.ini
+2025-03-11 11:54:11.955 INFO  [6125] [VPApp::InitInstance@932] m_logicalNumberOfProcessors=8
+2025-03-11 11:54:11.955 INFO  [6125] [VPApp::InitInstance@933] m_szMyPath=/tmp/retrofe/UCE/BYOG/
+2025-03-11 11:54:11.955 INFO  [6125] [VPApp::InitInstance@934] m_szMyPrefPath=/media/usb0/external/vpx-cyberrace/
+2025-03-11 11:54:11.955 INFO  [6125] [VPApp::InitInstance@1078] Loading table from command line option: /media/usb0/external/vpx-cyberrace/CyberRace.vpx
+2025-03-11 11:54:11.955 INFO  [6125] [VPinball::OnInitialUpdate@1834] OnInitialUpdate
+2025-03-11 11:54:11.956 INFO  [6125] [AudioMusicPlayer::InitPinDirectSound@534] Initializing BASS device #-1 [Reinit: 0]
+2025-03-11 11:54:12.007 INFO  [6125] [PinTable::LoadGameFromFilename@3724] LoadGameFromFilename /media/usb0/external/vpx-cyberrace/CyberRace.vpx
+2025-03-11 11:54:12.010 INFO  [6125] [Settings::LoadFromFile@38] Settings file was loaded from '/media/usb0/external/vpx-cyberrace/CyberRace.ini'
+2025-03-11 11:54:12.159 INFO  [6125] [PinTable::LoadGameFromFilename@3856] LoadData loaded
+2025-03-11 11:54:17.607 INFO  [6125] [PinTable::LoadGameFromFilename@3895] GameItem loaded
+2025-03-11 11:54:18.472 INFO  [6125] [PinTable::LoadGameFromFilename@3915] Sound loaded
+2025-03-11 11:54:23.839 INFO  [6125] [PinTable::LoadGameFromFilename@3997] Image loaded
+2025-03-11 11:54:23.839 INFO  [6125] [PinTable::LoadGameFromFilename@4024] Font loaded
+2025-03-11 11:54:23.885 INFO  [6125] [PinTable::LoadGameFromFilename@4049] Collection loaded
+2025-03-11 11:54:24.036 INFO  [6125] [PinTable::LoadGameFromFilename@4057] IEditable PostLoad performed
+2025-03-11 11:54:24.039 INFO  [6125] [PinTable::InitTablePostLoad@1743] InitTablePostLoad
+2025-03-11 11:54:24.040 INFO  [6125] [CodeViewer::LoadFromFile@1964] filename=/media/usb0/external/vpx-cyberrace/CyberRace.vbs
+2025-03-11 11:54:24.085 INFO  [6125] [VPinball::LoadFileName@1206] UI Post Load Start
+2025-03-11 11:54:24.085 INFO  [6125] [VPinball::LoadFileName@1223] UI Post Load End
+2025-03-11 11:54:24.085 INFO  [6125] [PinTable::Play@2256] Starting Play mode [table: CyberRace, play mode: 0]
+2025-03-11 11:54:24.085 INFO  [6125] [ProgressDialog::SetProgress@83]  1%
+2025-03-11 11:54:24.087 INFO  [6125] [PinTable::Play@2376] Duplicating parts for live instance
+2025-03-11 11:54:24.316 INFO  [6125] [PinTable::Play@2408] Duplicating collections
+2025-03-11 11:54:24.317 INFO  [6125] [PinTable::Play@2446] Implicit Textbox DMD added: name=ImplicitDMD
+2025-03-11 11:54:24.317 INFO  [6125] [PinTable::Play@2472] Implicit Flasher DMD added: name=ImplicitDMD2
+2025-03-11 11:54:24.317 INFO  [6125] [PinTable::Play@2499] Compiling script
+2025-03-11 11:54:24.415 INFO  [6125] [PinTable::Play@2538] Creating player
+2025-03-11 11:54:24.420 INFO  [6125] [Player::CreateWnd@619] Creating main window
+2025-03-11 11:54:24.431 INFO  [6125] [Player::CreateWnd@685] SDL display mode: 3840x2160 60Hz SDL_PIXELFORMAT_ARGB8888
+2025-03-11 11:54:24.431 INFO  [6125] [Player::Init@1333] Initializing player
+2025-03-11 11:54:24.431 INFO  [6125] [ProgressDialog::SetProgress@83] Creating Live Table... 10%
+2025-03-11 11:54:24.432 INFO  [6125] [Player::Init@1394] Initializing renderer (global states & resources)
+2025-03-11 11:54:24.432 INFO  [6125] [Player::Init@1398] Drawable Size: width=3840, height=2160
+2025-03-11 11:54:24.440 INFO  [6125] [RenderDevice::CreateDevice@1003] Drawable Size: width=3840, height=2160
+2025-03-11 11:54:24.440 INFO  [6125] [RenderDevice::CreateDevice@1009] Scaled Drawable Size: width=1920, height=1080
+2025-03-11 11:54:24.440 INFO  [6125] [RenderTarget::RenderTarget@43] Backbuffer channel size: 8, 8, 8
+2025-03-11 11:54:24.459 INFO  [6125] [Shader::Load@1421] Parsing file BasicShader.glfx
+2025-03-11 11:54:25.005 INFO  [6125] [Shader::Load@1514] Compiled successfully 13 shaders.
+2025-03-11 11:54:25.006 INFO  [6125] [Shader::Load@1421] Parsing file DMDShader.glfx
+2025-03-11 11:54:25.126 INFO  [6125] [Shader::Load@1514] Compiled successfully 7 shaders.
+2025-03-11 11:54:25.127 INFO  [6125] [Shader::Load@1421] Parsing file FBShader.glfx
+2025-03-11 11:54:25.918 INFO  [6125] [Shader::Load@1514] Compiled successfully 49 shaders.
+2025-03-11 11:54:25.918 INFO  [6125] [Shader::Load@1421] Parsing file FlasherShader.glfx
+2025-03-11 11:54:25.953 INFO  [6125] [Shader::Load@1514] Compiled successfully 1 shaders.
+2025-03-11 11:54:25.953 INFO  [6125] [Shader::Load@1421] Parsing file LightShader.glfx
+2025-03-11 11:54:25.986 INFO  [6125] [Shader::Load@1514] Compiled successfully 2 shaders.
+2025-03-11 11:54:25.986 INFO  [6125] [Shader::Load@1421] Parsing file StereoShader.glfx
+2025-03-11 11:54:26.124 INFO  [6125] [Shader::Load@1514] Compiled successfully 9 shaders.
+2025-03-11 11:54:26.125 INFO  [6125] [Shader::Load@1421] Parsing file BallShader.glfx
+2025-03-11 11:54:26.454 INFO  [6125] [Shader::Load@1514] Compiled successfully 6 shaders.
+2025-03-11 11:54:26.494 INFO  [6125] [Pin3D::InitPin3D@479] Computing environment map radiance
+2025-03-11 11:54:26.602 INFO  [6125] [Pin3D::InitPin3D@510] Environment map radiance computed
+2025-03-11 11:54:26.602 INFO  [6125] [Player::Init@1425] Synchronization mode: 0 with maximum FPS: 0, display FPS: 60
+2025-03-11 11:54:26.602 INFO  [6125] [Player::Init@1438] Initializing inputs & implicit objects
+2025-03-11 11:54:27.198 INFO  [6125] [PinInput::RefreshSDLGameController@306] Virtual Gamepad found: name=/dev/input/event10, guid=0300190b010000000200000000000000, mapping=0300190b010000000200000000000000,AtGamesGamepad,righty:a3,a:b6,b:b7,x:h0.4,y:b1,leftshoulder:b4,rightshoulder:b5,dpup:b2,dpleft:a5,dpright:a4,dpdown:b9,guide:h0.1,leftstick:h0.8,rightstick:h0.2,crc:0b19,platform:Linux
+2025-03-11 11:54:27.233 INFO  [6125] [ProgressDialog::SetProgress@83] Initializing Visuals... 30%
+2025-03-11 11:54:27.233 INFO  [6125] [Player::Init@1566] Initializing physics
+2025-03-11 11:54:27.234 INFO  [6125] [Player::Init@1615] Initializing Hitables
+2025-03-11 11:54:27.244 INFO  [6125] [ProgressDialog::SetProgress@83] Initializing Physics... 45%
+2025-03-11 11:54:27.245 INFO  [6125] [Player::Init@1650] Initializing octree
+2025-03-11 11:54:27.261 INFO  [6125] [ProgressDialog::SetProgress@83] Initializing Physics... 50%
+2025-03-11 11:54:27.261 INFO  [6125] [Player::Init@1692] Texture cache found at /media/usb0/external/vpx-cyberrace/Cache/CyberRace/used_textures.xml
+2025-03-11 11:54:27.262 INFO  [6125] [Player::Init@1725] Texture preloading: 'CustomBlackTip'
+2025-03-11 11:54:27.270 INFO  [6125] [Player::Init@1725] Texture preloading: 'VLM.Nestmap7'
+2025-03-11 11:54:27.273 INFO  [6125] [Player::Init@1725] Texture preloading: 'scorbitapron'
+2025-03-11 11:54:27.276 INFO  [6125] [Player::Init@1725] Texture preloading: 'shinyenvironment3blur4'
+2025-03-11 11:54:27.284 INFO  [6125] [Player::Init@1725] Texture preloading: 'VLM.Nestmap13'
+2025-03-11 11:54:27.286 INFO  [6125] [Player::Init@1725] Texture preloading: 'VLM.Nestmap14'
+2025-03-11 11:54:27.289 INFO  [6125] [Player::Init@1725] Texture preloading: 'VLM.Nestmap3'
+2025-03-11 11:54:27.294 INFO  [6125] [Player::Init@1725] Texture preloading: 'VLM.Nestmap5'
+2025-03-11 11:54:27.300 INFO  [6125] [Player::Init@1725] Texture preloading: 'VLM.Nestmap11'
+2025-03-11 11:54:27.306 INFO  [6125] [Player::Init@1725] Texture preloading: 'VLM.Nestmap10'
+2025-03-11 11:54:27.311 INFO  [6125] [Player::Init@1725] Texture preloading: 'VLM.Nestmap9'
+2025-03-11 11:54:27.315 INFO  [6125] [Player::Init@1725] Texture preloading: 'VLM.Nestmap1'
+2025-03-11 11:54:27.315 INFO  [6125] [Player::Init@1725] Texture preloading: 'metal3'
+2025-03-11 11:54:27.319 INFO  [6125] [Player::Init@1725] Texture preloading: 'VLM.Nestmap2'
+2025-03-11 11:54:27.319 INFO  [6125] [Player::Init@1725] Texture preloading: 'Insert_TriangleOff'
+2025-03-11 11:54:27.320 INFO  [6125] [Player::Init@1725] Texture preloading: 'Nestmap 0a'
+2025-03-11 11:54:27.323 INFO  [6125] [Player::Init@1725] Texture preloading: 'VLM.Nestmap0'
+2025-03-11 11:54:27.328 INFO  [6125] [Player::Init@1725] Texture preloading: 'VLM.Nestmap12'
+2025-03-11 11:54:27.334 INFO  [6125] [Player::Init@1725] Texture preloading: 'VLM.Nestmap8'
+2025-03-11 11:54:27.337 INFO  [6125] [Player::Init@1725] Texture preloading: 'VLM.Nestmap4'
+2025-03-11 11:54:27.342 INFO  [6125] [Player::Init@1725] Texture preloading: 'VLM.Nestmap6'
+2025-03-11 11:54:27.342 INFO  [6125] [ProgressDialog::SetProgress@83] Loading Textures... 60%
+2025-03-11 11:54:27.342 INFO  [6125] [Player::Init@1741] Initializing renderer
+2025-03-11 11:54:27.572 INFO  [6125] [Standalone::PreStartup@57] Performing pre-startup standalone actions
+2025-03-11 11:54:27.573 INFO  [6125] [Player::Init@1833] Starting script
+2025-03-11 11:54:27.582 INFO  [6125] [external_log_info@791] L"Controller" redefined
+2025-03-11 11:54:27.586 INFO  [6125] [external_log_info@791] L"Controller" redefined
+2025-03-11 11:54:27.586 INFO  [6125] [external_log_info@791] L"B2SOn" redefined
+2025-03-11 11:54:27.587 INFO  [6125] [external_create_object@775] progid=B2S.Server, hres=0x00000000
+2025-03-11 11:54:27.587 INFO  [6125] [FormBackglass::LoadB2SData@344] directb2s file found at: /media/usb0/external/vpx-cyberrace/CyberRace.directb2s
+2025-03-11 11:54:28.640 INFO  [6125] [VP::WindowManager::RegisterWindow@64] Register window: B2SDMD
+2025-03-11 11:54:28.692 INFO  [6125] [VP::WindowManager::RegisterWindow@64] Register window: B2SBackglass
+2025-03-11 11:54:28.752 INFO  [6125] [VP::WindowManager::RegisterWindow@64] Register window: FlexDMD
+2025-03-11 11:54:28.752 INFO  [6125] [external_create_object@775] progid=FlexDMD.FlexDMD, hres=0x00000000
+2025-03-11 11:54:28.752 INFO  [6125] [FlexDMD::put_GameName@175] Game name set to cyberrace
+2025-03-11 11:54:28.752 INFO  [6125] [FlexDMD::put_TableFile@263] Table file set to CyberRace.vpx
+2025-03-11 11:54:28.752 INFO  [6125] [AssetManager::SetBasePath@41] Base path set to: /media/usb0/external/vpx-cyberrace/./CyberRaceDMD/
+2025-03-11 11:54:28.753 INFO  [6125] [VP::DMDWindow::AttachDMD@61] Attaching DMD: width=128, height=32
+2025-03-11 11:54:28.753 INFO  [6125] [FlexDMD::RenderLoop@521] Starting render thread
+2025-03-11 11:54:28.755 INFO  [6125] [AssetManager::GetFont@320] Font added to cache: FlexDMD.Resources.bm_army-12.fnt&tint=ffffffff&border_size=0&border_tint=000000ff
+2025-03-11 11:54:28.756 INFO  [6125] [AssetManager::GetFont@320] Font added to cache: FlexDMD.Resources.teeny_tiny_pixls-5.fnt&tint=ffffffff&border_size=0&border_tint=000000ff
+2025-03-11 11:54:28.757 INFO  [6125] [AssetManager::GetFont@320] Font added to cache: FlexDMD.Resources.teeny_tiny_pixls-5.fnt&tint=ff00ffff&border_size=0&border_tint=000000ff
+2025-03-11 11:54:28.760 INFO  [6125] [AssetManager::GetFont@320] Font added to cache: FlexDMD.Resources.udmd-f6by12.fnt&tint=fff021ff&border_size=2&border_tint=000000ff
+2025-03-11 11:54:28.761 INFO  [6125] [AssetManager::GetFont@320] Font added to cache: FlexDMD.Resources.udmd-f6by12.fnt&tint=ffffffff&border_size=0&border_tint=000000ff
+2025-03-11 11:54:28.761 INFO  [6125] [AssetManager::GetFont@320] Font added to cache: FlexDMD.Resources.udmd-f4by5.fnt&tint=ffffffff&border_size=0&border_tint=000000ff
+2025-03-11 11:54:28.762 INFO  [6125] [AssetManager::GetFont@320] Font added to cache: FlexDMD.Resources.udmd-f5by7.fnt&tint=ffffffff&border_size=0&border_tint=000000ff
+2025-03-11 11:54:28.763 INFO  [6125] [AssetManager::GetFont@320] Font added to cache: FlexDMD.Resources.udmd-f7by5.fnt&tint=ffffffff&border_size=0&border_tint=000000ff
+2025-03-11 11:54:28.766 INFO  [6125] [AssetManager::GetFont@320] Font added to cache: FONTS/arial16.fnt&tint=ffffffff&border_size=0&border_tint=000000ff
+2025-03-11 11:54:28.768 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: BGP1.png
+2025-03-11 11:54:28.770 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: BGP2.png
+2025-03-11 11:54:28.772 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: BGP3.png
+2025-03-11 11:54:28.775 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: BGP4.png
+2025-03-11 11:54:28.777 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: BGBlack.png
+2025-03-11 11:54:28.796 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: BG001.png
+2025-03-11 11:54:28.810 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: BG002.png
+2025-03-11 11:54:28.812 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: BG003.png
+2025-03-11 11:54:28.814 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: BG004.png
+2025-03-11 11:54:28.816 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: BG005.png
+2025-03-11 11:54:29.058 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/attract-c.gif
+2025-03-11 11:54:29.101 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/bet-hurry.gif
+2025-03-11 11:54:29.134 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/boost-bg.gif
+2025-03-11 11:54:29.172 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/cyber-bg.gif
+2025-03-11 11:54:29.195 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/charge_emp.gif
+2025-03-11 11:54:29.224 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/nodes-complete.gif
+2025-03-11 11:54:29.241 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/skills.gif
+2025-03-11 11:54:29.281 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/garage-engine.gif
+2025-03-11 11:54:29.320 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/garage-cooling.gif
+2025-03-11 11:54:29.358 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/garage-fuel.gif
+2025-03-11 11:54:29.677 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/node-bg.gif
+2025-03-11 11:54:29.850 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/node-complete.gif
+2025-03-11 11:54:29.968 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/race1.gif
+2025-03-11 11:54:30.089 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/race2.gif
+2025-03-11 11:54:30.209 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/race3.gif
+2025-03-11 11:54:30.328 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/race4.gif
+2025-03-11 11:54:30.441 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/RaceLocked.gif
+2025-03-11 11:54:30.453 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/bonus1.gif
+2025-03-11 11:54:30.463 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/bonus2.gif
+2025-03-11 11:54:30.617 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/bonus3.gif
+2025-03-11 11:54:30.627 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/bonus4.gif
+2025-03-11 11:54:30.638 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/bonus5.gif
+2025-03-11 11:54:30.682 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/mystery_0.gif
+2025-03-11 11:54:30.725 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/mystery_1.gif
+2025-03-11 11:54:30.767 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/mystery_2.gif
+2025-03-11 11:54:30.809 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/mystery_3.gif
+2025-03-11 11:54:30.849 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/mystery_4.gif
+2025-03-11 11:54:30.900 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/tilt-warning.gif
+2025-03-11 11:54:30.948 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/tilt.gif
+2025-03-11 11:54:31.009 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/extra-ball.gif
+2025-03-11 11:54:31.082 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/shoot-again.gif
+2025-03-11 11:54:31.098 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/jackpot.gif
+2025-03-11 11:54:31.164 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/super_jackpot.gif
+2025-03-11 11:54:31.224 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/race_won.gif
+2025-03-11 11:54:31.395 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/wizard-mode.gif
+2025-03-11 11:54:31.399 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: BG006.png
+2025-03-11 11:54:31.419 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/hyper-bg.gif
+2025-03-11 11:54:31.458 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/wizard-jackpot.gif
+2025-03-11 11:54:31.523 INFO  [6125] [AssetManager::GetBitmap@292] Bitmap added to cache: videos/wizard-end.gif
+2025-03-11 11:54:33.030 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.062 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.093 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.125 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.156 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.187 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.219 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.250 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.281 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.313 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.344 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.375 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.407 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.438 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.470 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.501 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.533 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.564 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.596 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.628 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.660 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.691 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.723 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.754 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.786 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.817 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.849 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.881 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.912 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.944 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:33.976 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.008 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.039 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.071 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.103 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.134 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.166 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.198 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.230 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.261 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.293 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.325 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.357 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.389 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.421 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.453 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.485 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.517 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.549 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.581 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.613 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.645 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.678 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.710 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.742 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.775 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.807 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.840 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.872 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.904 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.937 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:34.969 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.001 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.033 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.065 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.097 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.130 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.161 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.194 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.226 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.258 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.290 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.322 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.354 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.387 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.419 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.451 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.484 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.516 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.548 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.581 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.613 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.646 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.678 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.710 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.743 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.775 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.807 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.840 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.872 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.904 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.937 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:35.969 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.001 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.034 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.066 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.098 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.131 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.163 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.195 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.227 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.260 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.292 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.325 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.357 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.389 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.422 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.454 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.487 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.519 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.551 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.583 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.615 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.647 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.680 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.713 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.745 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.778 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.810 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.843 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.875 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.908 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.941 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:36.973 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.006 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.039 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.071 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.103 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.136 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.168 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.201 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.234 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.267 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.300 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.333 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.365 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.398 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.431 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.463 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.496 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.529 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.562 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.595 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.628 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.661 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.694 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.727 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.760 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.793 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.825 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.858 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.891 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.924 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.956 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:37.989 INFO  [6125] [external_log_info@791] L"lmArr" redefined
+2025-03-11 11:54:38.042 INFO  [6125] [ProgressDialog::SetProgress@83] Prerendering Static Parts... 70%
+2025-03-11 11:54:38.042 INFO  [6125] [Player::Init@1856] Prerendering static parts
+2025-03-11 11:54:38.050 INFO  [6125] [Player::RenderStaticPrepass@1993] Performing prerendering of static parts.
+2025-03-11 11:54:39.286 INFO  [6125] [Player::RenderStaticPrepass@2171] Starting Reflection Probe prerendering
+2025-03-11 11:54:39.286 INFO  [6125] [Player::RenderStaticPrepass@2179] Static PreRender done
+2025-03-11 11:54:39.301 INFO  [6125] [ProgressDialog::SetProgress@83] Prerendering Static Parts... 100%
+2025-03-11 11:54:39.301 INFO  [6125] [Player::Init@1895] Startup done
+2025-03-11 11:54:39.301 INFO  [6125] [Standalone::PostStartup@86] Performing post-startup standalone actions
+2025-03-11 11:54:39.301 INFO  [6125] [VP::WindowManager::Start@103] Window manager start
+2025-03-11 11:54:39.315 INFO  [6125] [VP::Window::Init@54] Window initialized: title=B2SBackglass, id=2, size=1920x1080, pos=5040,0, z=100, rotation=0, visible=1, renderer=opengles2
+2025-03-11 11:54:39.364 INFO  [6125] [VP::Window::Init@54] Window initialized: title=B2SDMD, id=3, size=1920x1200, pos=3840,0, z=120, rotation=1, visible=1, renderer=opengles2
+2025-03-11 11:54:39.377 INFO  [6125] [VP::Window::Init@54] Window initialized: title=FlexDMD, id=4, size=1200x380, pos=3840,0, z=350, rotation=1, visible=1, renderer=opengles2
+2025-03-11 11:54:39.377 INFO  [6125] [VP::WindowManager::ThreadedRender@163] Starting render thread
+2025-03-11 11:54:39.465 INFO  [6125] [PinInput::RefreshSDLGameController@306] Virtual Gamepad found: name=/dev/input/event10, guid=0300190b010000000200000000000000, mapping=0300190b010000000200000000000000,AtGamesGamepad,righty:a3,a:b6,b:b7,x:h0.4,y:b1,leftshoulder:b4,rightshoulder:b5,dpup:b2,dpleft:a5,dpright:a4,dpdown:b9,guide:h0.1,leftstick:h0.8,rightstick:h0.2,crc:0b19,platform:Linux
+2025-03-11 11:54:39.565 INFO  [6125] [PinInput::RefreshSDLGameController@306] Virtual Gamepad found: name=/dev/input/event10, guid=0300190b010000000200000000000000, mapping=0300190b010000000200000000000000,AtGamesGamepad,righty:a3,a:b6,b:b7,x:h0.4,y:b1,leftshoulder:b4,rightshoulder:b5,dpup:b2,dpleft:a5,dpright:a4,dpdown:b9,guide:h0.1,leftstick:h0.8,rightstick:h0.2,crc:0b19,platform:Linux
+2025-03-11 11:54:39.655 INFO  [6125] [PinInput::RefreshSDLGameController@306] Virtual Gamepad found: name=/dev/input/event10, guid=0300190b010000000200000000000000, mapping=0300190b010000000200000000000000,AtGamesGamepad,righty:a3,a:b6,b:b7,x:h0.4,y:b1,leftshoulder:b4,rightshoulder:b5,dpup:b2,dpleft:a5,dpright:a4,dpdown:b9,guide:h0.1,leftstick:h0.8,rightstick:h0.2,crc:0b19,platform:Linux
+2025-03-11 11:54:39.775 INFO  [6125] [PinInput::RefreshSDLGameController@306] Virtual Gamepad found: name=/dev/input/event10, guid=0300190b010000000200000000000000, mapping=0300190b010000000200000000000000,AtGamesGamepad,righty:a3,a:b6,b:b7,x:h0.4,y:b1,leftshoulder:b4,rightshoulder:b5,dpup:b2,dpleft:a5,dpright:a4,dpdown:b9,guide:h0.1,leftstick:h0.8,rightstick:h0.2,crc:0b19,platform:Linux
+2025-03-11 11:55:05.032 ERROR [6125] [external_log_error@811] MessageBox(): caption=Error, text=BASS music/sound library cannot load "cyberrace/Karl Casey - White Bat I - 04 Patrol Bot.mp3" (error 2: can't open the file)
+2025-03-11 11:55:07.273 INFO  [6125] [external_log_info@791] dictionary_Invoke: dispId=7 (0x00000007), wFlags=1, hres=-2146795477
+2025-03-11 11:55:07.806 INFO  [6125] [AssetManager::GetFont@320] Font added to cache: FONTS/sendha32.fnt&tint=ffffffff&border_size=0&border_tint=000000ff
+2025-03-11 11:55:07.810 INFO  [6125] [AssetManager::GetFont@320] Font added to cache: FONTS/sendha32.fnt&tint=01f4ffff&border_size=0&border_tint=000000ff
+2025-03-11 11:55:16.085 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Spin in: 26.74929'
+2025-03-11 11:55:16.085 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Speed in: 6.113046'
+2025-03-11 11:55:16.085 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Spin out: 61.21355'
+2025-03-11 11:55:16.086 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Speed out: 4.890437'
+2025-03-11 11:55:22.388 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Spin in: -64.16806'
+2025-03-11 11:55:22.388 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Speed in: -1.335096'
+2025-03-11 11:55:26.915 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Spin in: -90.65027'
+2025-03-11 11:55:26.915 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Speed in: -5.350483'
+2025-03-11 11:55:27.302 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Spin in: -90.65027'
+2025-03-11 11:55:27.302 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Speed in: 0.587216'
+2025-03-11 11:55:27.303 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Spin out: -84.70564'
+2025-03-11 11:55:27.303 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Speed out: 0.587216'
+2025-03-11 11:55:50.130 ERROR [6125] [external_log_error@811] MessageBox(): caption=Error, text=BASS music/sound library cannot load "cyberrace/Karl Casey - White Bat I - 02 Casualty.mp3" (error 2: can't open the file)
+2025-03-11 11:55:52.408 INFO  [6125] [external_log_info@791] dictionary_Invoke: dispId=7 (0x00000007), wFlags=1, hres=-2146795477
+2025-03-11 11:55:58.116 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Spin in: -182.9069'
+2025-03-11 11:55:58.116 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Speed in: -14.03739'
+2025-03-11 11:55:58.265 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Spin in: -48.72027'
+2025-03-11 11:55:58.265 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Speed in: 5.157252'
+2025-03-11 11:55:58.266 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Spin out: -88.35198'
+2025-03-11 11:55:58.266 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Speed out: 4.125802'
+2025-03-11 11:55:59.475 INFO  [6125] [AssetManager::GetFont@320] Font added to cache: FlexDMD.Resources.udmd-f6by12.fnt&tint=ce00ffff&border_size=0&border_tint=000000ff
+2025-03-11 11:56:11.474 INFO  [6125] [AssetManager::GetFont@320] Font added to cache: FONTS/sendha32.fnt&tint=ff7f00ff&border_size=0&border_tint=000000ff
+2025-03-11 11:56:12.451 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Spin in: 0'
+2025-03-11 11:56:12.451 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Speed in: 1.824772'
+2025-03-11 11:56:12.451 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Spin out: 0'
+2025-03-11 11:56:12.452 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Speed out: 1.824772'
+2025-03-11 11:56:19.963 INFO  [6125] [AssetManager::GetFont@320] Font added to cache: FlexDMD.Resources.udmd-f7by5.fnt&tint=000000ff&border_size=0&border_tint=000000ff
+2025-03-11 11:56:24.785 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Spin in: 0'
+2025-03-11 11:56:24.786 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Speed in: 1.824687'
+2025-03-11 11:56:24.786 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Spin out: 0'
+2025-03-11 11:56:24.786 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Speed out: 1.824687'
+2025-03-11 11:56:29.625 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Spin in: 0'
+2025-03-11 11:56:29.625 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Speed in: 1.82472'
+2025-03-11 11:56:29.626 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Spin out: 0'
+2025-03-11 11:56:29.626 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Speed out: 1.82472'
+2025-03-11 11:56:36.312 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Spin in: 0'
+2025-03-11 11:56:36.312 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Speed in: 1.824689'
+2025-03-11 11:56:36.312 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Spin out: 0'
+2025-03-11 11:56:36.312 INFO  [6125] [DebuggerModule::Print@4226] Script.Print 'Speed out: 1.824689'
+2025-03-11 11:56:45.120 ERROR [6125] [external_log_error@811] MessageBox(): caption=Error, text=BASS music/sound library cannot load "cyberrace/Karl Casey - White Bat I - 08 B.F.G..mp3" (error 2: can't open the file)
+2025-03-11 11:56:47.262 INFO  [6125] [external_log_info@791] dictionary_Invoke: dispId=7 (0x00000007), wFlags=1, hres=-2146795477
+2025-03-11 11:56:48.202 INFO  [6125] [AssetManager::GetFont@320] Font added to cache: FlexDMD.Resources.udmd-f6by12.fnt&tint=ff0000ff&border_size=0&border_tint=000000ff
+2025-03-11 11:56:48.203 INFO  [6125] [AssetManager::GetFont@320] Font added to cache: FlexDMD.Resources.udmd-f5by7.fnt&tint=ff0000ff&border_size=0&border_tint=000000ff
+2025-03-11 11:57:18.107 INFO  [6125] [AssetManager::GetFont@320] Font added to cache: FlexDMD.Resources.udmd-f5by7.fnt&tint=000000ff&border_size=0&border_tint=000000ff
+2025-03-11 11:57:18.108 ERROR [6125] [external_log_error@811] MessageBox(): caption=Error, text=BASS music/sound library cannot load "cyberrace/Karl Casey - White Bat I - 03 Anima.mp3" (error 2: can't open the file)
+2025-03-11 11:57:18.126 INFO  [6125] [Player::OnClose@810] Closing player... [Player's VBS intepreter is #0x5cf0ca9cf0]
+2025-03-11 11:57:18.126 INFO  [6125] [FrameProfiler::LogWorstFrame@99] Long Frame of  67.7ms happened after  80.5s:
+2025-03-11 11:57:18.126 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Misc:             1.0ms
+2025-03-11 11:57:18.126 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Script:          33.3ms spent in  11 calls of TimerEvents:Timer (1 x GameTimer =>  1.4ms, 1 x GameTimersUpdate =>  1.1ms, 1 x lightTimer => 29.3ms, 1 x DMDTimer =>  0.7ms, 1 x Frametimer =>  0.2ms, 1 x swPlunger =>  0.0ms, 1 x RightFlipper =>  0.4ms, 1 x TimerPlunger2 =>  0.1ms, 1 x BallControl =>  0.0ms, 1 x FlexModeUpdate =>  0.0ms, 1 x TurnTable =>  0.0ms) 
+2025-03-11 11:57:18.126 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Physics:          1.3ms
+2025-03-11 11:57:18.126 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Prepare Frame:    1.2ms
+2025-03-11 11:57:18.126 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Submit Frame:     3.1ms
+2025-03-11 11:57:18.126 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . GPU Flip:        27.7ms
+2025-03-11 11:57:18.126 INFO  [6125] [FrameProfiler::LogWorstFrame@99] Long Frame of  66.6ms happened after  37.5s:
+2025-03-11 11:57:18.126 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Misc:             0.8ms
+2025-03-11 11:57:18.126 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Script:          30.9ms spent in   9 calls of TimerEvents:Timer (1 x GameTimer =>  1.4ms, 1 x lightTimer => 28.2ms, 1 x DMDTimer =>  0.6ms, 1 x Frametimer =>  0.2ms, 1 x swPlunger =>  0.0ms, 1 x RightFlipper =>  0.4ms, 1 x TimerPlunger2 =>  0.1ms, 1 x BallControl =>  0.0ms, 1 x TurnTable =>  0.0ms) 
+2025-03-11 11:57:18.127 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Physics:          0.6ms
+2025-03-11 11:57:18.127 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Prepare Frame:    1.0ms
+2025-03-11 11:57:18.127 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Submit Frame:     9.6ms
+2025-03-11 11:57:18.127 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . GPU Flip:        23.6ms
+2025-03-11 11:57:18.127 INFO  [6125] [FrameProfiler::LogWorstFrame@99] Long Frame of  80.3ms happened after  83.2s:
+2025-03-11 11:57:18.127 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Misc:             1.0ms
+2025-03-11 11:57:18.127 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Script:          40.8ms spent in  10 calls of TimerEvents:Timer (1 x GameTimer =>  1.3ms, 1 x lightTimer => 37.9ms, 1 x DMDTimer =>  0.8ms, 1 x Frametimer =>  0.2ms, 1 x swPlunger =>  0.0ms, 1 x RightFlipper =>  0.4ms, 1 x TimerPlunger2 =>  0.1ms, 1 x BallControl =>  0.0ms, 1 x FlexModeUpdate =>  0.0ms, 1 x TurnTable =>  0.0ms) 
+2025-03-11 11:57:18.127 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Physics:          1.4ms
+2025-03-11 11:57:18.127 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Prepare Frame:    1.3ms
+2025-03-11 11:57:18.128 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Submit Frame:     3.2ms
+2025-03-11 11:57:18.128 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . GPU Flip:        32.6ms
+2025-03-11 11:57:18.128 INFO  [6125] [FrameProfiler::LogWorstFrame@99] Long Frame of  64.7ms happened after 126.1s:
+2025-03-11 11:57:18.128 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Misc:             0.3ms
+2025-03-11 11:57:18.128 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Script:          22.5ms spent in  10 calls of TimerEvents:Timer (1 x GameTimer =>  1.2ms, 1 x GameTimersUpdate =>  0.8ms, 1 x lightTimer => 19.0ms, 1 x DMDTimer =>  0.8ms, 1 x Frametimer =>  0.3ms, 1 x swPlunger =>  0.0ms, 1 x RightFlipper =>  0.4ms, 1 x TimerPlunger2 =>  0.1ms, 1 x BallControl =>  0.0ms, 1 x TurnTable =>  0.0ms) 
+2025-03-11 11:57:18.128 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Physics:          1.1ms
+2025-03-11 11:57:18.128 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Prepare Frame:    1.0ms
+2025-03-11 11:57:18.128 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Submit Frame:     2.7ms
+2025-03-11 11:57:18.128 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . GPU Flip:        37.0ms
+2025-03-11 11:57:18.128 INFO  [6125] [FrameProfiler::LogWorstFrame@99] Long Frame of  67.6ms happened after  33.4s:
+2025-03-11 11:57:18.128 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Misc:             0.4ms
+2025-03-11 11:57:18.128 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Script:          37.7ms spent in  10 calls of TimerEvents:Timer (1 x GameTimer =>  1.2ms, 1 x lightTimer => 35.1ms, 1 x DMDTimer =>  0.7ms, 1 x Frametimer =>  0.2ms, 1 x swPlunger =>  0.0ms, 1 x RightFlipper =>  0.4ms, 1 x TimerPlunger2 =>  0.1ms, 1 x BallControl =>  0.0ms, 1 x FlexModeUpdate =>  0.0ms, 1 x TurnTable =>  0.0ms) 
+2025-03-11 11:57:18.128 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Physics:          2.2ms
+2025-03-11 11:57:18.128 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Prepare Frame:    1.0ms
+2025-03-11 11:57:18.128 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Submit Frame:     2.7ms
+2025-03-11 11:57:18.128 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . GPU Flip:        23.6ms
+2025-03-11 11:57:18.128 INFO  [6125] [FrameProfiler::LogWorstFrame@99] Long Frame of  79.1ms happened after  82.8s:
+2025-03-11 11:57:18.128 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Misc:             0.6ms
+2025-03-11 11:57:18.128 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Script:          41.4ms spent in   9 calls of TimerEvents:Timer (1 x GameTimer =>  1.4ms, 1 x lightTimer => 38.4ms, 1 x DMDTimer =>  0.8ms, 1 x Frametimer =>  0.2ms, 1 x swPlunger =>  0.0ms, 1 x RightFlipper =>  0.4ms, 1 x TimerPlunger2 =>  0.1ms, 1 x BallControl =>  0.0ms, 1 x TurnTable =>  0.0ms) 
+2025-03-11 11:57:18.128 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Physics:          1.2ms
+2025-03-11 11:57:18.129 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Prepare Frame:    1.2ms
+2025-03-11 11:57:18.129 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Submit Frame:     3.0ms
+2025-03-11 11:57:18.129 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . GPU Flip:        31.6ms
+2025-03-11 11:57:18.129 INFO  [6125] [FrameProfiler::LogWorstFrame@99] Long Frame of  64.5ms happened after  49.7s:
+2025-03-11 11:57:18.129 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Misc:             0.7ms
+2025-03-11 11:57:18.129 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Script:           5.7ms spent in  18 calls of TimerEvents:Timer (1 x GameTimer =>  1.1ms, 1 x lightTimer =>  1.2ms, 1 x DMDTimer =>  0.9ms, 1 x Frametimer =>  0.3ms, 2 x swPlunger =>  0.1ms, 5 x RightFlipper =>  2.0ms, 1 x TimerPlunger2 =>  0.1ms, 5 x BallControl =>  0.1ms, 1 x TurnTable =>  0.0ms) 
+2025-03-11 11:57:18.129 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Physics:          1.7ms
+2025-03-11 11:57:18.129 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Prepare Frame:    0.7ms
+2025-03-11 11:57:18.129 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Submit Frame:     1.9ms
+2025-03-11 11:57:18.129 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . GPU Flip:        53.7ms
+2025-03-11 11:57:18.129 INFO  [6125] [FrameProfiler::LogWorstFrame@99] Long Frame of  66.1ms happened after 112.1s:
+2025-03-11 11:57:18.130 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Misc:             0.8ms
+2025-03-11 11:57:18.130 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Script:          40.4ms spent in   9 calls of TimerEvents:Timer (1 x GameTimer =>  1.4ms, 1 x lightTimer => 37.5ms, 1 x DMDTimer =>  0.8ms, 1 x Frametimer =>  0.2ms, 1 x swPlunger =>  0.0ms, 1 x RightFlipper =>  0.4ms, 1 x TimerPlunger2 =>  0.1ms, 1 x BallControl =>  0.0ms, 1 x TurnTable =>  0.0ms) 
+2025-03-11 11:57:18.130 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Physics:          0.6ms
+2025-03-11 11:57:18.130 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Prepare Frame:    0.8ms
+2025-03-11 11:57:18.130 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Submit Frame:     2.1ms
+2025-03-11 11:57:18.130 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . GPU Flip:        21.5ms
+2025-03-11 11:57:18.130 INFO  [6125] [FrameProfiler::LogWorstFrame@99] Long Frame of  65.1ms happened after  53.7s:
+2025-03-11 11:57:18.130 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Misc:             1.5ms
+2025-03-11 11:57:18.130 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Script:          32.8ms spent in   9 calls of TimerEvents:Timer (1 x GameTimer =>  1.2ms, 1 x lightTimer => 30.4ms, 1 x DMDTimer =>  0.4ms, 1 x Frametimer =>  0.2ms, 1 x swPlunger =>  0.0ms, 1 x RightFlipper =>  0.4ms, 1 x TimerPlunger2 =>  0.1ms, 1 x BallControl =>  0.0ms, 1 x TurnTable =>  0.0ms) 
+2025-03-11 11:57:18.130 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Physics:          1.6ms
+2025-03-11 11:57:18.130 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Prepare Frame:    1.1ms
+2025-03-11 11:57:18.130 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Submit Frame:     2.8ms
+2025-03-11 11:57:18.130 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . GPU Flip:        25.3ms
+2025-03-11 11:57:18.130 INFO  [6125] [FrameProfiler::LogWorstFrame@99] Long Frame of  66.9ms happened after  81.1s:
+2025-03-11 11:57:18.130 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Misc:             0.9ms
+2025-03-11 11:57:18.130 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Script:          35.2ms spent in  10 calls of TimerEvents:Timer (1 x GameTimer =>  1.4ms, 1 x GameTimersUpdate =>  1.1ms, 1 x lightTimer => 31.3ms, 1 x DMDTimer =>  0.7ms, 1 x Frametimer =>  0.2ms, 1 x swPlunger =>  0.0ms, 1 x RightFlipper =>  0.4ms, 1 x TimerPlunger2 =>  0.1ms, 1 x BallControl =>  0.0ms, 1 x TurnTable =>  0.0ms) 
+2025-03-11 11:57:18.130 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Physics:          1.5ms
+2025-03-11 11:57:18.130 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Prepare Frame:    1.0ms
+2025-03-11 11:57:18.130 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . Submit Frame:     2.6ms
+2025-03-11 11:57:18.130 INFO  [6125] [FrameProfiler::LogWorstFrame@173]   . GPU Flip:        25.7ms
+2025-03-11 11:57:18.131 INFO  [6125] [VPinMAMEController::VPinMAMEController@178] PinMAME path set to: pinmame/
