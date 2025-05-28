@@ -38,6 +38,7 @@
   - Follow the VPUniverse instructions to apply the `vpx-batman66flash.dif` to the `.vpx` file.
   - I chose the simple output name of "patched," and got the full filename you see below.
   - These should be your results:
+  - 
 | File | Size (Windows Explorer)| [Size](https://md5file.com/calculator) | [Hash](https://md5file.com/calculator) |
 |-----------|--------|----------|----------|
 | `Batman 66 (Original 2018).vpx` | 146,616 kb | 150134784 bytes | MD5: 7f18278326ee54c1528ad9bb07172b40 |
